@@ -1,0 +1,33 @@
+.header_nav{
+    background-image: url(../img/fondo_spacio.jpg);
+}
+
+.headerCont{
+    width: 100%;
+    height: 680px;
+    display: grid;
+
+
+    grid-template-columns: repeat(2, 1fr);
+
+    .headerCont-text{
+        height: 100%;
+
+        margin: 0 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .headerBtn{
+            width: max-content;
+            padding: 20px;
+            margin-bottom: 40px;
+            border: 1px solid #20e9c7;
+        }
+
+        .headerTitle{
+            font-size: 42px;
+            margin-bottom: 40px;
+        }
+    }
+}
